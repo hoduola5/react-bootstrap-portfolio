@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'Password Generator',
-      description: 'An interactive e-commerce website with a dynamic cart.',
+      description: 'A dynamic web tool that securely generates strong, customizable passwords based on user preferences, ensuring enhanced protection for online accounts. Built using JavaScript, HTML, and CSS, this project showcases client-side scripting to deliver user-friendly and interactive functionality.',
       image: 'pass-gen.png',
       link: 'https://github.com/hoduola5/Password-Gen',
       liveProject: 'https://hoduola5.github.io/Password-Gen/'
