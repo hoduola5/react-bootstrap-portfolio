@@ -7,41 +7,41 @@ const Portfolio = () => {
 
   const projects = [
     {
-      id: 1,
-      title: 'Team Information Generator',
-      description: 'A modern web app built with React and Firebase.',
-      image: 'team-info-gen.png',
-      link: 'https://github.com/hoduola5/Team_Info_Gen',
-      liveProject: ''
-    },
-    {
-      id: 2,
-      title: 'Password Generator',
-      description: 'A dynamic web tool that securely generates strong, customizable passwords based on user preferences, ensuring enhanced protection for online accounts. Built using JavaScript, HTML, and CSS, this project showcases client-side scripting to deliver user-friendly and interactive functionality.',
-      image: 'pass-gen.png',
-      link: 'https://github.com/hoduola5/Password-Gen',
-      liveProject: 'https://hoduola5.github.io/Password-Gen/'
-    },
-    {
-      id: 3,
-      title: 'Todo App',
-      description: 'A modern web app built with React and Firebase.',
-      image: 'todo.png',
-      link: 'https://github.com/hoduola5/React-Todo-App',
-      liveProject: 'https://react-todo-app-bayo.netlify.app/'
-    },
-    {
       id: 4,
       title: 'Weather Dashboard App',
-      description: 'An interactive e-commerce website with a dynamic cart.',
+      description: 'A sleek and responsive weather dashboard that provides real-time weather updates and a five-day forecast for any city. Built with HTML5, CSS3, and Bootstrap 4 for modern styling, and powered by JavaScript, jQuery, and the OpenWeatherMap API for dynamic data fetching. Enhanced with Moment.js to display precise timestamps for weather conditions.',
       image: 'weather-app.png',
       link: 'https://github.com/hoduola5/Weather-Dashboard-Server-side-API',
       liveProject: 'https://weather-dashboard-server-side-api.netlify.app/'
     },
     {
+      id: 3,
+      title: 'Todo App',
+      description: 'A dynamic and feature-rich to-do app designed to streamline task management. This app empowers users to organize tasks effectively with customizable priorities, statuses, and progress tracking. Additional functionalities include task editing, filtering, reminders, and calendar integration, all wrapped in a responsive and themable UI. Built with React and styled with Material UI for a seamless user experience.',
+      image: 'todo.png',
+      link: 'https://github.com/hoduola5/React-Todo-App',
+      liveProject: 'https://react-todo-app-bayo.netlify.app/'
+    },
+    {
+      id: 2,
+      title: 'Password Generator',
+      description: 'A web tool that generates strong, customizable passwords based on user preferences, ensuring enhanced protection for accounts. Built using JavaScript, HTML, and CSS, this project showcases client-side scripting for interactive functionality.',
+      image: 'pass-gen.png',
+      link: 'https://github.com/hoduola5/Password-Gen',
+      liveProject: 'https://hoduola5.github.io/Password-Gen/'
+    },
+    {
+      id: 1,
+      title: 'Team Information Generator',
+      description: 'Team_Info_Gen is a command-line application for generating team profiles. Built with Node.js, it utilizes Inquirer for interactive prompts and Jest for testing, delivering a streamlined solution for organizing and managing team information efficiently.',
+      image: 'team-info-gen.png',
+      link: 'https://github.com/hoduola5/Team_Info_Gen',
+      liveProject: ''
+    },
+    {
       id: 5,
       title: 'Refactor Hariseon',
-      description: 'An interactive e-commerce website with a dynamic cart.',
+      description: "Refactor-Horiseon-Codebase is a revamped landing page for Horiseon, redesigned to enhance accessibility for individuals with disabilities. This project ensures compatibility with assistive technologies like video captions, screen readers, and braille keyboards. Guided by the Scout Rule—'leave the code cleaner than you found it'—the codebase has been streamlined for improved usability and maintainability.",
       image: 'Refactor-Hariseon.png',
       link: 'https://github.com/hoduola5/Refactor-Hariseon-Codebase',
       liveProject: 'https://hoduola5.github.io/Refactor-Hariseon-Codebase/'
@@ -49,7 +49,7 @@ const Portfolio = () => {
     {
       id: 6,
       title: 'Quiz App',
-      description: 'A modern web app built with React and Firebase.',
+      description: 'Quiz Master App is an engaging web-based quiz platform built with HTML5, CSS3, and JavaScript. It features randomized questions, a countdown timer, real-time feedback, and a high-score tracker. The app uses localStorage to save high scores and is accessible with keyboard navigation. Its responsive design ensures a smooth experience, perfect for testing knowledge and competing with friends!',
       image: 'quiz-app.png',
       link: 'https://github.com/hoduola5/Quiz-App',
       liveProject: 'https://hoduola5.github.io/Quiz-App/'
